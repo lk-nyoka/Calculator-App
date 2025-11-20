@@ -1,0 +1,11 @@
+# Ignore the virtual environment
+venv/
+
+# Ignore build artifacts
+build/
+dist/
+*.spec
+__pycache__/
+
+# Ignore IDE settings (optional but good)
+.vscode/
