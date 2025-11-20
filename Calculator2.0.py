@@ -56,6 +56,9 @@ title_label.pack(pady=10)
 button_frame = tk.Frame(root, bg="white")
 button_frame.pack()
 
+root.grid_rowconfigure(1, weight=1)
+root.grid_columnconfigure(0, weight=1)
+
 for i in range(4): 
     button_frame.grid_columnconfigure(i, weight=1)
     button_frame.grid_rowconfigure(i, weight=1)
